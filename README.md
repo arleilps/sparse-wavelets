@@ -19,3 +19,14 @@ ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)
 
 Arlei Silva (arlei@cs.ucsb.edu)
 
+----
+# REQUIREMENTS
+sudo apt install python3-networkx python-networkx
+sudo apt install python3-scipy python-scipy
+sudo apt install python3-matplotlib python-matplotlib
+sudo apt install python3-pywt python-pywt
+sudo apt install python3-sklearn python-sklearn
+sudo apt install python3-pandas python-pandas
+pip install statistics
+pip3 install statistics
+
