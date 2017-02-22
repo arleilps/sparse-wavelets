@@ -1,3 +1,4 @@
 data/
 *.pyc
 synthetic-data.py
+compression-experiments.py
