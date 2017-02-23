@@ -21,18 +21,29 @@ Arlei Silva (arlei@cs.ucsb.edu)
 
 # Requirements
 
+- python3
+    - use of math.log2()
+
 ```sh
-sudo apt install python-notebook python3-notebook
-sudo apt install python3-networkx python-networkx
-sudo apt install python3-scipy python-scipy
-sudo apt install python3-matplotlib python-matplotlib
-sudo apt install python3-pywt python-pywt
-sudo apt install python3-sklearn python-sklearn
-sudo apt install python3-pandas python-pandas
-pip install statistics
+sudo apt install ipython3
+sudo apt install python3-notebook
+sudo apt install python3-networkx
+sudo apt install python3-scipy
+sudo apt install python3-matplotlib
+sudo apt install python3-pywt
+sudo apt install python3-sklearn
+sudo apt install python3-pandas
 pip3 install statistics
+sudo pip3 install statsmodels
+```
+
+# Run
+
+```sh
+ipython3 nbconvert -to python *.ipynb
+python3 <generated python script>
 ```
 
 # Known Issues
 
--  lib.netpros is not present
+-  NONE
