@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
-from lib.netpros import *
 from lib.static import *
 from mpl_toolkits.mplot3d import axes3d
 import numpy
@@ -9,6 +8,16 @@ from matplotlib import cm
 from lib.syn import *
 import time
 import sys
+
+def L2(F, F_approx):
+	"""
+		Sum of squared errors
+	"""
+	e = 0
+	for i in range(F.shape[0]):
+		e = e + ((F[i]-F_approx[i])**2).sum()
+
+	return float(e)
 
 def size_time_experiment(sizes, balance, sparsity, energy, noise, num):
 	"""
