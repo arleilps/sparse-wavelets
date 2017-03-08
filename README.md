@@ -26,7 +26,7 @@ Arlei Silva (arlei@cs.ucsb.edu)
 
 ```sh
 sudo apt install ipython3
-sudo apt install python3-notebook
+sudo apt install python3-notebookdo ap
 sudo apt install python3-networkx
 sudo apt install python3-scipy
 sudo apt install python3-matplotlib
@@ -42,6 +42,11 @@ sudo pip3 install statsmodels
 ```sh
 ipython3 nbconvert -to python *.ipynb
 python3 <generated python script>
+```
+
+or
+```sh
+ipython3 notebook
 ```
 
 # Known Issues
