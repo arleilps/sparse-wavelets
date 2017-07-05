@@ -1,0 +1,5 @@
+data/
+*.pyc
+synthetic-data.py
+compression-experiments.py
+.ipynb_checkpoints/
