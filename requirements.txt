@@ -1,0 +1,6 @@
+matplotlib
+# The code also supports NetworkX 2.0 but different versions
+# could lead to a test failure due to a slightly different output
+networkx==1.11
+numpy
+scipy
